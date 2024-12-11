@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${atma.className} bg-white`}>{children}</body>
+      <body className={`${atma.className}`}>{children}</body>
     </html>
   );
 }
