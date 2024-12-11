@@ -17,7 +17,7 @@ export default function CatFactDisplay() {
   }, [])
 
   return (
-    <div className="flex flex-col items-center">
+    <>
       <Image
         src="/animals_cat.svg?height=200&width=200"
         alt="Cartoon Cat"
@@ -27,7 +27,7 @@ export default function CatFactDisplay() {
       />
       <p className="text-2xl mb-4 text-center max-w-md">{fact}</p>
       <button className="lined thick" onClick={fetchFact}>New Fact</button>
-    </div>
+    </>
   )
 }
 
