@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'Dubious Cat Facts',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://dubiouscatfacts.com/og-image.png',
       },
     ],
     locale: 'en_US',
