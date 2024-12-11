@@ -1,5 +1,6 @@
 {
   "name": "dubiouscatfacts",
+  "description": "Collection of dubious cat facts",
   "version": "0.1.0",
   "private": true,
   "scripts": {
