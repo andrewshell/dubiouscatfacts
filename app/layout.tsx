@@ -11,8 +11,23 @@ const atma = Atma({
 export const metadata: Metadata = {
   title: 'Dubious Cat Facts',
   description: 'Random and possibly dubious facts about cats',
+  openGraph: {
+    title: 'Dubious Cat Facts',
+    description: 'Random and possibly dubious facts about cats',
+    url: 'https://dubiouscatfacts.com',
+    siteName: 'Dubious Cat Facts',
+    images: [
+      {
+        url: '/og-image.png',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
 }
-
 
 export default function RootLayout({
   children,
