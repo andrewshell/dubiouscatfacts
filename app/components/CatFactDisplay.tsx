@@ -19,7 +19,7 @@ export default function CatFactDisplay() {
   return (
     <>
       <Image
-        src="/animals_cat.svg?height=200&width=200"
+        src="/dubious_cat.svg?height=200&width=200"
         alt="Cartoon Cat"
         width={200}
         height={200}
